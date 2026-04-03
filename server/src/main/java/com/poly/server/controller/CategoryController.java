@@ -74,4 +74,7 @@ public class CategoryController {
         categoryService.addCate(req);
     }
 
+    // authen & author:
+    // 401 => tai khoan k ton tai trong he
+    // 403 => tai khoan k co quyen
 }
